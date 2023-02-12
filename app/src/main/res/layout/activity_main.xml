@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btnMissiles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Missiles"
+        android:onClick="abrirDialogo"/>
+
+
+
+    <Button
+        android:id="@+id/btnMultiple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Multiple"
+        android:onClick="abrirDialogo"
+        android:layout_marginTop="4dp"
+
+        />
+
+    <Button
+        android:id="@+id/btnSimple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="seleccion Simple"
+        android:onClick="abrirDialogo"
+        android:layout_marginTop="4dp"
+
+        />
+
+    <Button
+        android:id="@+id/btnHora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="false"
+        android:text="Time picker"
+        android:onClick="abrirDialogo"
+        android:layout_marginTop="4dp"
+        />
+    <Button
+        android:id="@+id/btnDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="false"
+        android:text="Date picker"
+        android:onClick="abrirDialogo"
+        android:layout_marginTop="4dp"
+        />
+
+    <Button
+        android:id="@+id/btnCustom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Custom"
+        android:onClick="abrirDialogo"
+        android:layout_marginTop="4dp"
+
+        />
+    <EditText
+        android:focusable="false"
+        android:id="@+id/edtfecha"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/selecciona_fecha"
+        android:onClick="abrirDialogo"
+
+        />
+    <!--android:clickable="false"-->
+    <EditText
+        android:focusable="false"
+        android:id="@+id/edthora"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/selecciona_hora"
+        android:onClick="abrirDialogo"
+
+        />
+
+</LinearLayout>

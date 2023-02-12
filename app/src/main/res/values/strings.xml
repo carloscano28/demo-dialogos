@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">DemoDialogos</string>
+    <string name="dialog_fire_missiles">te quieres casar conmig?</string>
+    <string name="fire">dialogo dos</string>
+    <string name="cancelar">dialogo canelar</string>
+    <string name="pick_toppings">Selecciona_ingredientes</string>
+    <string name="ok">ok</string>
+    <string name="cancel">cancelar</string>
+    <string name="username">usuario</string>
+    <string name="password">password</string>
+    <string name="signin">sign_in</string>
+    <string name="agrega_fecha">agrega fecha</string>
+    <string name="selecciona_fecha">Selecciona fecha</string>
+    <string name="selecciona_hora">Selecciona hora</string>
+
+
+    <string-array name="toppings">
+        <item>Mayonesa</item>
+        <item>Buffalo</item>
+        <item>Maa</item>
+        <item>Mnesa</item>
+        <item>onesa</item>
+    </string-array>
+
+</resources>
